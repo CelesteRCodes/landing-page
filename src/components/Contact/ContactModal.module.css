@@ -1,0 +1,43 @@
+.modal{
+  border: 3px solid white;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  background-color: rgb(26, 26, 26);
+  fill-opacity: 0.7;
+}
+
+.closeBtn {
+  background-color: rgb(26, 26, 26);
+  border: none;
+  color: white;
+  display: inline-flex;
+  
+}
+
+.img {
+  margin: 0;
+  padding-top: none;
+  width: 150px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 10px
+}
+
+a {
+  color: white !important;
+  text-decoration: none !important
+}
+
+a:hover {
+  color: purple !important;
+  text-decoration: none !important;
+}

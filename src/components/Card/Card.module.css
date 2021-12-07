@@ -1,0 +1,41 @@
+.card {
+  background-color: rgb(205, 63, 181);
+  border: 3px solid white;
+  border-radius: 10px;
+  padding: 10px
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+h1 {
+  padding-bottom: none;
+  margin: 0
+}
+
+h1:hover {
+  color: black;
+  text-decoration-line: underline;
+  text-decoration-color: white;
+}
+
+a {
+  color: white
+}
+
+a:hover {
+  color: grey;
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+.img {
+  margin: 0;
+  padding-top: none;
+  width: 100px;
+  height: 200px;
+  border-radius: 10px;
+}
